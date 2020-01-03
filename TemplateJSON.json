@@ -15,10 +15,10 @@
       "header": {
         "title": {
           "type": "image",
-          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripe.png",
+          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
           "style": {
-            "width": "400",
-            "height": "56"
+            "width": "300",
+            "height": "42"
           }
         },
         "style": {
