@@ -3,7 +3,7 @@
     "head": {
       "title": "NAK Gemeindeinfo Gerlingen",
       "description": "NAK Gemeindeinfo Gerlingen",
-      "icon": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/GemInfoLogoStripe.png",
+      "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripe.png",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
@@ -15,7 +15,7 @@
       "header": {
         "title": {
           "type": "image",
-          "url": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/GemInfoLogoStripe.png",
+          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripe.png",
           "style": {
             "width": "400",
             "height": "56"
