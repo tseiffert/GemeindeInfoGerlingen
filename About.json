@@ -4,7 +4,7 @@
       "title": "NAK Gemeindeinfo Gerlingen",
       "description": "NAK Gemeindeinfo Gerlingen",
       "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
-      "offline":"true",
+      "offline":"false",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
@@ -47,7 +47,8 @@
                 "padding": "20"
               },
               "href": {
-                "url": "https://github.com/Jasonette"
+                "url": "https://github.com/Jasonette",
+                "view": "web"
               }
             },
             {
@@ -58,7 +59,8 @@
                 "padding": "20"
               },
               "href": {
-                "url": "https://icons8.com/"
+                "url": "https://icons8.com/",
+                "view": "web"
               }
             }
           ]
@@ -67,13 +69,12 @@
       "footer": {
           "tabs": {
             "style": {
-              "background": "#ffffff"
+              "background": "#ffff00"
             },
             "items": [
               {
                 "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
                 "text": "Termine",
-                "badge": "",
                 "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
               },
               {

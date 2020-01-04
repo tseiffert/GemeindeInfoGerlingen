@@ -88,13 +88,7 @@
               {
                 "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
                 "text": "Termine",
-                "badge": "",
                 "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
-              },
-              {
-                "image": "https://img.icons8.com/ultraviolet/40/000000/internet.png",
-                "text": "Internet",
-                "url": "https://www.nak-stuttgart-leonberg.de/gerlingen"
               },
               {
                 "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
