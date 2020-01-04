@@ -31,10 +31,19 @@
       "sections": [
         {
           "items": [
+          {
+              "type": "header",
+              "text": "Internet",
+              "class": "bold",
+              "size": "20"
+              "style": {
+                "padding": "10"
+              }
+            },
             {
               "type": "label",
               "text": "Internet-Seite der neuapostolischen Gemeinde in Gerlingen",
-              "class": "bold",
+              "class": "normal",
               "style": {
                 "padding": "20"
               },
@@ -94,27 +103,7 @@
             }
           ]
         }
-      ],
-      "footer": {
-          "tabs": {
-            "style": {
-                "background": "rgba(255,255,255,0.5)",
-                "color": "rgb(87, 148, 202)"
-            },
-            "items": [
-              {
-                "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
-                "text": "Termine",
-                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
-              },
-              {
-                "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
-                "text": "Info",
-                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
-              }
-            ]
-          }
-        }
+      ]
     }
   }
 }
