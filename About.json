@@ -33,7 +33,7 @@
           "items": [
           {
               "type": "header",
-              "text": "Internet",
+              "text": "NAK Internet",
               "class": "bold",
               "size": "20"
               "style": {
@@ -91,7 +91,7 @@
             },
             {
               "type": "label",
-              "text": "Icons sind von icons8.com",
+              "text": "Icons sind von icons8.com entnommen.",
               "class": "normal",
               "style": {
                 "padding": "20"

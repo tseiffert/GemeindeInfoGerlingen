@@ -10,6 +10,14 @@
           "font": "HelveticaNeue-CondensedBold",
           "size": "15"
         }
+      },
+      "actions": {
+        "$pull": {
+          "type": "$flush",
+          "success": {
+            "type": "$reload"
+          }
+        }
       }
     },
     "body": {
