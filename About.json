@@ -33,48 +33,33 @@
           "items": [
             {
               "type": "label",
-              "text": "Read ProcessWire Blog",
+              "text": "Credits",
               "class": "bold",
               "style": {
                 "padding": "20"
-              },
-              "href": {
-                "url": "https://raw.githubusercontent.com/NinjasCL/pw-app/master/blog.json"
               }
             },
             {
               "type": "label",
-              "text": "Read ProcessWire Weekly",
+              "text": "Jeasonelle",
               "class": "bold",
               "style": {
                 "padding": "20"
               },
               "href": {
-                "url": "https://raw.githubusercontent.com/NinjasCL/pw-app/master/weekly.json"
+                "url": "https://github.com/Jasonette"
               }
             },
             {
               "type": "label",
-              "text": "Read Latest Forum Posts",
+              "text": "Icons",
               "class": "bold",
               "style": {
                 "padding": "20"
               },
               "href": {
-                "url": "https://raw.githubusercontent.com/NinjasCL/pw-app/master/forum.json"
+                "url": "https://icons8.com/"
               }
-            },
-            {
-              "type": "label",
-              "text": "Made by Ninjas.cl",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                    "url": "http://www.ninjas.cl",
-                    "view": "web"
-                  }
             }
           ]
         }
