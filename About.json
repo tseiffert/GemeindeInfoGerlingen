@@ -47,6 +47,7 @@
               "type": "header",
               "text": "Credits",
               "class": "bold",
+              "size": "20"
               "style": {
                 "padding": "10"
               }
@@ -73,8 +74,16 @@
             },
             {
               "type": "label",
-              "text": "Icons sind von icons8.com",
+              "text": "Icons",
               "class": "bold",
+              "style": {
+                "padding": "10"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Icons sind von icons8.com",
+              "class": "normal",
               "style": {
                 "padding": "20"
               },
