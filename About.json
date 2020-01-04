@@ -33,6 +33,18 @@
           "items": [
             {
               "type": "label",
+              "text": "Internet",
+              "class": "bold",
+              "style": {
+                "padding": "20"
+              },
+              "href": {
+                "url": "https://www.nak-stuttgart-leonberg.de/gerlingen",
+                "view": "web"
+              }
+            },              
+            {
+              "type": "label",
               "text": "Credits",
               "class": "bold",
               "style": {
@@ -69,18 +81,15 @@
       "footer": {
           "tabs": {
             "style": {
-              "background": "#ffff00"
+                "background": "rgba(255,255,255,0.8)",
+                "color:disabled": "#cecece",
+                "color": "#009efa"
             },
             "items": [
               {
                 "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
                 "text": "Termine",
                 "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
-              },
-              {
-                "image": "https://img.icons8.com/ultraviolet/40/000000/internet.png",
-                "text": "Internet",
-                "url": "https://www.nak-stuttgart-leonberg.de/gerlingen"
               },
               {
                 "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
