@@ -44,11 +44,11 @@
               }
             },              
             {
-              "type": "label",
+              "type": "header",
               "text": "Credits",
               "class": "bold",
               "style": {
-                "padding": "20"
+                "padding": "10"
               }
             },
             {
