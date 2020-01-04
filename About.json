@@ -53,8 +53,16 @@
             },
             {
               "type": "label",
-              "text": "Jeasonelle \n Die App basiert auf das Framework von Jeansonette. Ermöglicht iOS und Android Apps over JSON Files.",
+              "text": "Jeasonelle",
               "class": "bold",
+              "style": {
+                "padding": "10"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Die App basiert auf das Framework von Jeansonette. Ermöglicht iOS und Android Apps over JSON Files.",
+              "class": "normal",
               "style": {
                 "padding": "20"
               },
