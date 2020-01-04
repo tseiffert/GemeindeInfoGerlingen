@@ -52,13 +52,13 @@
             },
             {
               "type": "label",
-              "text": "Hello JSON",
+              "text": "2",
               "class": "bold",
               "style": {
                 "padding": "20"
               },
               "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/hello.json"
+                "url": "https://jasonette.github.io/Jasonpedia/demo.json"
               }
             },
             {
