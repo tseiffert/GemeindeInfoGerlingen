@@ -33,7 +33,7 @@
           "items": [
             {
               "type": "label",
-              "text": "Internet",
+              "text": "Internet-Seite der neuapostolischen Gemeinde in Gerlingen",
               "class": "bold",
               "style": {
                 "padding": "20"
@@ -53,7 +53,7 @@
             },
             {
               "type": "label",
-              "text": "Jeasonelle",
+              "text": "Jeasonelle \n Die App basiert auf das Framework von Jeansonette. Ermöglicht iOS und Android Apps over JSON Files.",
               "class": "bold",
               "style": {
                 "padding": "20"
@@ -65,7 +65,7 @@
             },
             {
               "type": "label",
-              "text": "Icons",
+              "text": "Icons sind von icons8.com",
               "class": "bold",
               "style": {
                 "padding": "20"
@@ -81,9 +81,8 @@
       "footer": {
           "tabs": {
             "style": {
-                "background": "rgba(255,255,255,0.8)",
-                "color:disabled": "#cecece",
-                "color": "#009efa"
+                "background": "rgba(255,255,255,0.5)",
+                "color": "rgb(87, 148, 202)"
             },
             "items": [
               {
