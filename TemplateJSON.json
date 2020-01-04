@@ -20,6 +20,24 @@
         }
       }
     },
+    "data": {
+        "Termine": [{
+          "text": "So., 5. Jan. 2020",
+          "image": "https://pbs.twimg.com/media/CtJYvx1XgAIilZ4.jpg"
+        },{
+          "text": "Do., 9. Jan. 2020",
+          "image": ""
+        }, {
+          "text": "So., 12. Jan. 2020",
+          "image": "https://pbs.twimg.com/media/CtJYvx1XgAIilZ4.jpg"
+        }, {
+          "text": "Mo., 13. Jan. 2020",
+          "image": "https://pbs.twimg.com/media/Cr7cSz1WIAA0OZj.jpg"
+        }, {
+          "text": "Di., 14. Jan. 2020",
+          "image": "https://pbs.twimg.com/media/CrNnHPUWEAEK_b3.jpg"
+        }]
+      },
     "body": {
       "header": {
         "title": {
@@ -39,6 +57,27 @@
       "sections": [
         {
           "items": [
+          {
+              "{{#each Termine}}": {
+                "type": "horizontal",
+                "style": {
+                  "spacing": "10"
+                },
+                "components": [{
+                  "type": "label",
+                    "text": "{{text}}",
+                    "style": {
+                      "font": "HelveticaNeue",
+                      "size": "14"
+                    },{
+                    "type": "image",
+                    "url": "{{image}}",
+                    "style": {
+                      "corner_radius": "5"
+                    }
+                }]
+              }
+            },
             {
               "type": "label",
               "text": "Demo JSON",
