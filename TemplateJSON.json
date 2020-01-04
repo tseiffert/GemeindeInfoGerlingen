@@ -4,7 +4,7 @@
       "title": "NAK Gemeindeinfo Gerlingen",
       "description": "NAK Gemeindeinfo Gerlingen",
       "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
-      "offline":"true",
+      "offline":"false",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
