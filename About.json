@@ -31,6 +31,13 @@
           "background": "rgb(87, 148, 202)",
           "padding": "15",
           "color": "#ffffff"
+        },
+        "menu": {
+          "text": "View JSON",
+          "href": {
+            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
+            "view": "web"
+          }
         }
       },        
       "sections": [
