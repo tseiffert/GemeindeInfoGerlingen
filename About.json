@@ -31,25 +31,19 @@
           "background": "rgb(87, 148, 202)",
           "padding": "15",
           "color": "#ffffff"
-        },
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-            "view": "web"
-          }
         }
       },        
       "sections": [
         {
           "items": [
             {
-              "type": "header",
+              "type": "label",
               "text": "NAK Internet",
               "class": "bold",
               "size": "20",
               "style": {
-                "padding": "10"
+                "padding": "10",
+                "background": "#000000"
               }
             },
             {
@@ -65,7 +59,7 @@
               }
             },
             {
-              "type": "header",
+              "type": "label",
               "text": "Credits",
               "class": "bold",
               "size": "20",
