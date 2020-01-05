@@ -68,9 +68,9 @@
           }
         },
         "style": {
-          "background": "rgb(87, 148, 202)",
+          "color": "rgb(87, 148, 202)",
           "padding": "15",
-          "color": "#ffffff"
+          "background": "#ffffff"
         }
       },
       "sections": [
