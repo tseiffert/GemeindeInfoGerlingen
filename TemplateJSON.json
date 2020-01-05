@@ -1,7 +1,7 @@
 {
   "$jason": {
     "head": {
-      "title": "NAK Gemeindeinfo Gerlingen-v1",
+      "title": "NAK Gemeindeinfo Gerlingen-v2",
       "description": "NAK Gemeindeinfo Gerlingen",
       "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/NAKLogo.png",
       "offline": "false",
@@ -81,7 +81,28 @@
                 }
               }
             }
-          ]
+          ],
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "#FFFFFF",
+                "color": "rgba(87, 148, 202, 1)",
+                "color:disabled": "rgba(87, 148, 202, 0.5)"
+              },
+              "items": [
+                {
+                  "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-eigenschaftszeit-32.png",
+                  "text": "Termine",
+                  "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+                },
+                {
+                  "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
+                  "text": "Info",
+                  "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+                }
+              ]
+            }
+          }
         }
       }
     }
