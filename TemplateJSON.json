@@ -50,7 +50,7 @@
         },
         "style": {
           "background": "rgb(87, 148, 202)",
-          "padding": "10",
+          "padding": "15",
           "color": "#ffffff"
         }
       },
@@ -107,10 +107,6 @@
       ],
       "footer": {
           "tabs": {
-            "style": {
-                "background": "rgb(255,255,255)",
-                "color": "rgb(87, 148, 202)"
-            },
             "items": [
               {
                 "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
