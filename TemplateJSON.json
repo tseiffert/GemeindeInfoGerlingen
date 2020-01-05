@@ -90,6 +90,11 @@
       ],
       "footer": {
         "tabs": {
+          "style": {
+            "background": "rgba(255,255,255,0)",
+            "color:disabled": "#cecece",
+            "color": "#009efa"
+          },
           "items": [
             {
               "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
