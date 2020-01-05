@@ -64,7 +64,7 @@
               "text": "Demo JSON",
               "class": "bold",
               "style": {
-                "padding": "20"
+                "padding": "5"
               },
               "href": {
                 "url": "https://jasonette.github.io/Jasonpedia/demo.json"
@@ -75,7 +75,7 @@
               "text": "pdf",
               "class": "bold",
               "style": {
-                "padding": "20"
+                "padding": "5"
               },
               "href": {
                 "url": "https://raw.githubusercontent.com/Jasonette/Jasonpedia/gh-pages/webcontainer/pdf.json"
@@ -83,11 +83,35 @@
             },
             {
               "type": "label",
-              "text": "8",
+              "text": "9",
               "class": "bold",
               "style": {
-                "padding": "20"
+                "padding": "5"
               }
+            },
+            {
+              "type": "vertical",
+              "style": {
+                "padding": "5",
+                "spacing": "10"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "First row"
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Second row"
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Third row"
+                }
+              ]
             },
             {
               "type": "grid",
