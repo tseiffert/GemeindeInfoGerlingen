@@ -1,0 +1,14 @@
+menu nok
+
+"menu": {
+  "text": "Info",
+  "style": {
+    "font": "HelveticaNeue-CondensedBold",
+    "size": "15",
+    "color": "#000000"
+  },
+  "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+  "href": {
+    "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+  }
+},
