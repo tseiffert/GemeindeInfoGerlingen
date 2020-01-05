@@ -11,6 +11,12 @@
           "size": "15"
         }
       },
+      "menu": {
+        "text": "Info",
+        "href": {
+          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+        }
+      },
       "actions": {
         "$pull": {
           "type": "$flush",
@@ -84,31 +90,18 @@
               "href": {
                 "url": "https://raw.githubusercontent.com/Jasonette/Jasonpedia/gh-pages/webcontainer/pdf.json"
               }
-            }
-          ]
-        }
-      ],
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "rgba(255,255,255,0)",
-            "color:disabled": "#cecece",
-            "color": "#009efa"
-          },
-          "items": [
-            {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
-              "text": "Termine",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
             },
             {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
-              "text": "Info",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+              "type": "label",
+              "text": "3",
+              "class": "bold",
+              "style": {
+                "padding": "20"
+              }
             }
           ]
         }
-      }
+      ]
     }
   }
 }
