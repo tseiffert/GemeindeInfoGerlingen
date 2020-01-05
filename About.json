@@ -119,12 +119,12 @@
           },
           "items": [
             {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-eigenschaftszeit-32.png",
               "text": "Termine",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
             },
             {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
               "text": "Info",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
             }
