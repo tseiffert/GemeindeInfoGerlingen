@@ -100,7 +100,7 @@
             },
             {
               "type": "label",
-              "text": "5",
+              "text": "6",
               "class": "bold",
               "style": {
                 "padding": "20"
@@ -108,7 +108,27 @@
             }
           ]
         }
-      ]
+      ],
+      "footer": {
+        "tabs": {
+          "style": {
+            "background": "rgba(255,255,255,0)",
+            "color": "#000000"
+          },
+          "items": [
+            {
+              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
+              "text": "Termine",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+            },
+            {
+              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+              "text": "Info",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+            }
+          ]
+        }
+      }
     }
   }
 }
