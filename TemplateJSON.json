@@ -51,6 +51,10 @@
             "width": "300",
             "height": "42"
           }
+        },
+        "style": {
+          "background": "#rgb(87, 148, 202)",
+          "color": "#FFFFFF"
         }
       },
       "sections": [
@@ -80,7 +84,7 @@
             },
             {
               "type": "label",
-              "text": "No22",
+              "text": "No23",
               "class": "normal",
               "style": {
                 "padding": "5"
