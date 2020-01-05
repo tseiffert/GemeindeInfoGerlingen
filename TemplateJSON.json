@@ -72,7 +72,7 @@
             },
             {
               "type": "label",
-              "text": "No12",
+              "text": "No13",
               "class": "bold",
               "style": {
                 "padding": "5"
@@ -150,11 +150,11 @@
         "tabs": {
           "style": {
             "background": "#FFFFFF",
-            "color": "rgba(87, 148, 202,0.5)
+            "color": "rgba(87, 148, 202,0.5)"
           },
           "items": [
             {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-eigenschaftszeit-32.png",
               "text": "Termine",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
             },
