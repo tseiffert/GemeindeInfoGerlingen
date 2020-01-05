@@ -70,17 +70,6 @@
             },
             {
               "type": "label",
-              "text": "2",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/demo.json"
-              }
-            },
-            {
-              "type": "label",
               "text": "pdf",
               "class": "bold",
               "style": {
@@ -89,18 +78,6 @@
               "href": {
                 "url": "https://raw.githubusercontent.com/Jasonette/Jasonpedia/gh-pages/webcontainer/pdf.json"
               }
-            },
-            {
-              "type": "label",
-              "text": "1.",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                    "url": "http://www.ninjas.cl",
-                    "view": "web"
-                  }
             }
           ]
         }

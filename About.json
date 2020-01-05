@@ -10,6 +10,11 @@
           "font": "HelveticaNeue-CondensedBold",
           "size": "15"
         }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
       }
     },
     "body": {
