@@ -67,8 +67,19 @@
             },
             {
               "type": "label",
-              "text": "No16",
+              "text": "Demo data",
               "class": "bold",
+              "style": {
+                "padding": "5"
+              },
+              "href": {
+                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/dataexample.json"
+              }
+            },
+            {
+              "type": "label",
+              "text": "No17",
+              "class": "normal",
               "style": {
                 "padding": "5"
               }
