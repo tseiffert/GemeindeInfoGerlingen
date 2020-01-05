@@ -1,96 +1,145 @@
 {
   "$jason": {
     "head": {
-      "title": "MagicTable",
-      "type": "mixin",
-      "data": {
-        "items": {
-          "@": "$document.collection"
+      "title": "NAK Gemeindeinfo Gerlingen",
+      "description": "NAK Gemeindeinfo Gerlingen",
+      "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/NAKLogo.png",
+      "offline": "false",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
         }
       },
-      "collection": {
-        "@": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/studioghibli/data.json"
-      },
-      "style": {
-        "background": "#f00000",
-        "header": {
-          "background": "#f00000",
-          "color": "#ffffff"
-        },
-        "section": {
-          "color": "#ffffff",
-          "padding": "10",
-          "font": "HelveticaNeue-Bold",
-          "size": "53"
-        },
-        "key": {
-          "color": "#ffffff",
-          "font": "HelveticaNeue-Bold",
-          "align": "right",
-          "size": "33"
-        },
-        "value": {
-          "color": "#ffffff",
-          "align": "right",
-          "font": "HelveticaNeue",
-          "size": "12"
+      "actions": {
+        "$pull": {
+          "type": "$reload"
         }
       }
     },
-    "templates": {
-      "body": {
-        "background": {
-          "@": "$document.style.background"
+    "data": {
+      "Termine": [
+        {
+          "date": "So 5. Jan. 2020",
+          "time": "09:30",
+          "text": "Gottesdienst zum Jahresbeginn Predigtgrundlage: Galater 5, 1 Sonntags- und Vorsonntagsschule"
         },
-        "header": {
-          "title": "Magic Table",
+        {
+          "date": "Do 9. Jan. 2020",
+          "time": "20:00",
+          "text": "Gottesdienst in Ditzingen Predigtgrundlage: Matthäus 2,9b-11"
+        },
+        {
+          "date": "So 12. Jan. 2020",
+          "time": "10:00",
+          "text": "Gottesdienst mit Bezirksapostel Ehrich, Übertragung via Satellit aus Albstadt"
+        }
+      ]
+    },
+    "body": {
+      "header": {
+        "title": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
           "style": {
-            "@": "$document.style.header"
+            "width": "300",
+            "height": "42"
           }
         },
-        "sections": {
-          "{{#each items.slice(0,20)}}": {
-            "header": {
+        "style": {
+          "background": "rgb(87, 148, 202)",
+          "color": "#000000"
+        }
+      },
+      "sections": [
+        {
+          "items": [
+            {
               "type": "label",
-              "text": "{{$index}}",
+              "text": "Demo JSON",
+              "class": "bold",
               "style": {
-                "@": "$document.style.section"
+                "padding": "5"
+              },
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/demo.json"
               }
             },
-            "items": [
-              {
-                "type": "vertical",
-                "components": {
-                  "{{#let}}": [
-                    {
-                      "key": "{{this}}"
-                    },
-                    {
-                      "{{#each Object.keys(key).filter(function(k) { return k !== '$root' && k !== 'key' }) }}": {
-                        "type": "vertical",
-                        "components": [
-                          {
-                            "type": "label",
-                            "style": {
-                              "@": "$document.style.key"
-                            },
-                            "text": "{{this}}"
-                          },
-                          {
-                            "type": "label",
-                            "style": {
-                              "@": "$document.style.value"
-                            },
-                            "text": "{{JSON.stringify(key[this])}}"
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                }
+            {
+              "type": "label",
+              "text": "Demo data",
+              "class": "bold",
+              "style": {
+                "padding": "5"
+              },
+              "href": {
+                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/dataexample.json"
               }
-            ]
-          }
+            },
+            {
+              "type": "label",
+              "text": "No17",
+              "class": "normal",
+              "style": {
+                "padding": "5"
+              }
+            },
+            {
+              "{{#each Termine}}": {
+                "type": "horizontal",
+                "style": {
+                  "padding": "5",
+                  "spacing": "5"
+                },
+                "components": [
+                  {
+                    "type": "label",
+                    "class": "label_class",
+                    "text": "{{date}}",
+                    "style": {
+                      "width": "30%"
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "class": "label_class",
+                    "text": "{{time}}",
+                    "style": {
+                      "width": "20%"
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "class": "label_class",
+                    "text": "{{text}}",
+                    "style": {
+                      "width": "50%"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "tabs": {
+          "style": {
+            "background": "#FFFFFF",
+            "color": "rgba(87, 148, 202,0)"
+          },
+          "items": [
+            {
+              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
+              "text": "Termine",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+            },
+            {
+              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+              "text": "Info",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+            }
+          ]
         }
       }
     }
