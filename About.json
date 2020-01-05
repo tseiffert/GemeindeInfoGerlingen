@@ -110,26 +110,7 @@
             }
           ]
         }
-      ],
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "#FFFFFF"
-          },
-          "items": [
-            {
-              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-eigenschaftszeit-32.png",
-              "text": "Termine",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
-            },
-            {
-              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
-              "text": "Info",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
-            }
-          ]
-        }
-      }
+      ]
     }
   }
 }
