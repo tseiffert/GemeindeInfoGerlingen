@@ -1,18 +1,14 @@
 {
   "$jason": {
     "head": {
-      "title": "Template",
+      "title": "NAK Gemeindeinfo Gerlingen-v1",
+      "description": "NAK Gemeindeinfo Gerlingen",
+      "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/NAKLogo.png",
+      "offline": "false",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
           "size": "15"
-        },
-        "normal": {
-          "font": "HelveticaNeue",
-          "size": "12"
-        },
-        "gray": {
-          "background": "#f5f5f5"
         }
       },
       "actions": {
@@ -27,116 +23,61 @@
         }
       },
       "data": {
-        "json_items": [{
-          "title": "Inline Data",
-          "description": "Render inline data ($jason.head.data) using template",
-          "url": "https://jasonette.github.io/Jasonpedia/template/inline.json"
-        }, {
-          "title": "Dynamic Data",
-          "description": "Make a $network.request action to an API and render the template",
-          "url": "https://jasonette.github.io/Jasonpedia/template/network.json"
-        }, {
-          "title": "#each",
-          "description": "Loop through array using #each keyword",
-          "url": "https://jasonette.github.io/Jasonpedia/template/each.json"
-        }, {
-          "title": "#if | #elseif | #else",
-          "description": "Use the conditionals to selectively render templates",
-          "url": "https://jasonette.github.io/Jasonpedia/template/if.json"
-        }, {
-          "title": "Use Javascript expressions",
-          "description": "Jasonette template engine is built on top of native Javascript engine, so you can use any Javascript expression inside {{ }}",
-          "url": "https://jasonette.github.io/Jasonpedia/template/js.json"
-        }, {
-          "title": "Javascript function example",
-          "description": "Sometimes, just a single Javascript statement is not enough. You can embed a full Javascript function inside {{ }}. Just remember to have a return value, and escape them correctly",
-          "url": "https://jasonette.github.io/Jasonpedia/template/jsfunction.json"
-        }],
-        "nonjson_items": [{
-          "title": "HTML",
-          "description": "Transform any HTML content into JSON, which then can be rendered",
-          "url": "https://jasonette.github.io/Jasonpedia/template/html.json"
-        }, {
-          "title": "RSS",
-          "description": "Transform any RSS content into JSON, which then can be rendered",
-          "url": "https://jasonette.github.io/Jasonpedia/template/rss.json"
-        }, {
-          "title": "CSV",
-          "description": "Transform any CSV content into JSON, which then can be rendered",
-          "url": "https://jasonette.github.io/Jasonpedia/template/csv.json"
-        }]
+        "Termine": [
+          {
+            "date": "So 5. Jan. 2020",
+            "time": "09:30",
+            "text": "Gottesdienst zum Jahresbeginn Predigtgrundlage: Galater 5, 1 Sonntags- und Vorsonntagsschule"
+          },
+          {
+            "date": "Do 9. Jan. 2020",
+            "time": "20:00",
+            "text": "Gottesdienst in Ditzingen Predigtgrundlage: Matthäus 2,9b-11"
+          },
+          {
+            "date": "So 12. Jan. 2020",
+            "time": "10:00",
+            "text": "Gottesdienst mit Bezirksapostel Ehrich, Übertragung via Satellit aus Albstadt"
+          }
+        ]
       },
       "templates": {
         "body": {
-          "header": {
-            "menu": {
-              "text": "View JSON",
-              "href": {
-                "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/template/index.json",
-                "view": "web"
-              }
-            }
-          },
           "sections": [
             {
-              "header": {
-                "type": "horizontal",
-                "style": {
-                  "background": "rgba(14,122,254,0.1)",
-                  "padding": "20"
-                },
-                "components": [{
+              "items": {
+                "{{#each Termine}}": {
+                  "type": "horizontal",
                   "style": {
-                    "size": "12"
+                    "padding": "5",
+                    "spacing": "5"
                   },
-                  "type": "label",
-                  "text": "Note: These demos demonstrate how you can use templates to build a view. The apps themselves will look the same as those not using templates, you will need to look at the JSON to see the difference"
-                }]
-              }
-            }, {
-              "header": {
-                "type": "label",
-                "class": "normal gray",
-                "text": "JSON Templating"
-              },
-              "items": {
-                "{{#each json_items}}": {
-                  "type": "vertical",
-                  "href": {
-                    "url": "{{url}}"
-                  },
-                  "components": [{
-                    "type": "label",
-                    "text": "{{title}}",
-                    "class": "bold"
-                  }, {
-                    "type": "label",
-                    "text": "{{description}}",
-                    "class": "normal"
-                  }]
-                }
-              }
-            }, {
-              "header": {
-                "type": "label",
-                "class": "normal gray",
-                "text": "Non-JSON Templating"
-              },
-              "items": {
-                "{{#each nonjson_items}}": {
-                  "type": "vertical",
-                  "href": {
-                    "url": "{{url}}"
-                  },
-                  "components": [{
-                    "type": "label",
-                    "text": "{{title}}",
-                    "class": "bold"
-                  }, {
-                    "type": "label",
-                    "text": "{{description}}",
-                    "class": "normal"
-                  }]
+                  "components": [
+                    {
+                      "type": "label",
+                      "class": "label_class",
+                      "text": "{{date}}",
+                      "style": {
+                        "width": "30%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "class": "label_class",
+                      "text": "{{time}}",
+                      "style": {
+                        "width": "20%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "class": "label_class",
+                      "text": "{{text}}",
+                      "style": {
+                        "width": "50%"
+                      }
+                    }
+                  ]
                 }
               }
             }
