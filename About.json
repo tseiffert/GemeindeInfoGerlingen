@@ -43,7 +43,7 @@
               "size": "20",
               "style": {
                 "padding": "10",
-                "background": "#000000"
+                "background": "#F0F0F0"
               }
             },
             {
@@ -64,7 +64,8 @@
               "class": "bold",
               "size": "20",
               "style": {
-                "padding": "10"
+                "padding": "10",
+                "background": "#F0F0F0"
               }
             },
             {
