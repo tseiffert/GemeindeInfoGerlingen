@@ -59,11 +59,12 @@
     "body": {
       "header": {
         "title": {
+          "text": "Gemeindeinfo Gerlingen",
           "type": "image",
-          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
+          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/NAKLogo.png",
           "style": {
-            "width": "300",
-            "height": "42"
+            "width": "28",
+            "height": "40"
           }
         },
         "style": {
@@ -99,7 +100,7 @@
             },
             {
               "type": "label",
-              "text": "4",
+              "text": "5",
               "class": "bold",
               "style": {
                 "padding": "20"
