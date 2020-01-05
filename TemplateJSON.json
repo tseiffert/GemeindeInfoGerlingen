@@ -79,6 +79,10 @@
               }
             },
             {
+              "type": "image",
+              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png"
+            },
+            {
               "type": "horizontal",
               "style": {
                 "padding": "5",
@@ -132,7 +136,8 @@
       "footer": {
         "tabs": {
           "style": {
-            "background": "#FFFFFF"
+            "background": "#FFFFFF",
+            "color": "rgba(87, 148, 202,0.5)"
           },
           "items": [
             {
