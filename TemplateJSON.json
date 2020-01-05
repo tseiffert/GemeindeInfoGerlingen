@@ -72,7 +72,7 @@
             },
             {
               "type": "label",
-              "text": "No13",
+              "text": "No14",
               "class": "bold",
               "style": {
                 "padding": "5"
@@ -150,7 +150,7 @@
         "tabs": {
           "style": {
             "background": "#FFFFFF",
-            "color": "rgba(87, 148, 202,0.5)"
+            "color": "rgba(87, 148, 202,0)"
           },
           "items": [
             {
@@ -159,7 +159,7 @@
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
             },
             {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
               "text": "Info",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
             }
