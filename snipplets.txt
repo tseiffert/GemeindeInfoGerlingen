@@ -1,3 +1,14 @@
+
+nok
+
+,
+"data": {
+  "Termine": {
+    "@": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Termine.json"
+  }
+},
+
+
 menu nok
 
 "menu": {
