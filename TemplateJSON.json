@@ -95,17 +95,16 @@
               "grid_border": "#abcdef",
               "components": [
                 {
-                  "type": "image",
-                  "url": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2.jpeg",
+                  "type": "label",
+                  "text": "1.1.2020",
                   "style": {
-                    "width": "80",
                     "padding": "10",
                     "border": "#123456"
                   }
                 },
                 {
-                  "type": "image",
-                  "url": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2.jpeg",
+                  "type": "label",
+                  "text": "9:30",
                   "style": {
                     "width": "80",
                     "padding": "10",
