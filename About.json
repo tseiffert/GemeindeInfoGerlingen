@@ -91,7 +91,7 @@
             },
             {
               "type": "label",
-              "text": "Icons sind von icons8.com entnommen.",
+              "text": "Icons sind von http://icons8.com",
               "class": "normal",
               "style": {
                 "padding": "20"
