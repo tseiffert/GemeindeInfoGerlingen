@@ -4,7 +4,7 @@
       "title": "NAK Gemeindeinfo Gerlingen",
       "description": "NAK Gemeindeinfo Gerlingen",
       "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
-      "offline":"false",
+      "offline": "false",
       "styles": {
         "bold": {
           "font": "HelveticaNeue-CondensedBold",
@@ -21,23 +21,29 @@
       }
     },
     "data": {
-        "Termine": [{
+      "Termine": [
+        {
           "text": "So., 5. Jan. 2020",
           "image": "https://pbs.twimg.com/media/CtJYvx1XgAIilZ4.jpg"
-        },{
+        },
+        {
           "text": "Do., 9. Jan. 2020",
           "image": ""
-        }, {
+        },
+        {
           "text": "So., 12. Jan. 2020",
           "image": "https://pbs.twimg.com/media/CtJYvx1XgAIilZ4.jpg"
-        }, {
+        },
+        {
           "text": "Mo., 13. Jan. 2020",
           "image": "https://pbs.twimg.com/media/Cr7cSz1WIAA0OZj.jpg"
-        }, {
+        },
+        {
           "text": "Di., 14. Jan. 2020",
           "image": "https://pbs.twimg.com/media/CrNnHPUWEAEK_b3.jpg"
-        }]
-      },
+        }
+      ]
+    },
     "body": {
       "header": {
         "title": {
@@ -83,21 +89,21 @@
         }
       ],
       "footer": {
-          "tabs": {
-            "items": [
-              {
-                "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
-                "text": "Termine",
-                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
-              },
-              {
-                "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
-                "text": "Info",
-                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
-              }
-            ]
-          }
+        "tabs": {
+          "items": [
+            {
+              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
+              "text": "Termine",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+            },
+            {
+              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+              "text": "Info",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+            }
+          ]
         }
+      }
     }
   }
 }
