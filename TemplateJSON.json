@@ -133,7 +133,7 @@
           "style": {
             "background": "#FFFFFF",
             "color": "rgba(87, 148, 202, 1)",
-            "color:disabled": "rgba(87, 148, 202, 0)"
+            "color:disabled": "rgba(87, 148, 202, 0.5)"
           },
           "items": [
             {
