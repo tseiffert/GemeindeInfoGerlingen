@@ -13,21 +13,6 @@
       }
     },
     "body": {
-      "header": {
-        "title": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
-          "style": {
-            "width": "300",
-            "height": "42"
-          }
-        },
-        "style": {
-          "background": "rgb(87, 148, 202)",
-          "padding": "10",
-          "color": "#ffffff"
-        }
-      },
       "sections": [
         {
           "items": [
