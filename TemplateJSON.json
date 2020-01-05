@@ -1,31 +1,98 @@
 {
-    "@": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/studioghibli/app.json",
-    "collection": {
-      "@": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/studioghibli/data.json"
-    },
-    "style": {
-      "background": "#f00000",
-      "header": {
+  "$jason": {
+    "head": {
+      "title": "MagicTable",
+      "type": "mixin",
+      "data": {
+        "items": {
+          "@": "$document.collection"
+        }
+      },
+      "collection": {
+        "@": "https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/studioghibli/data.json"
+      },
+      "style": {
         "background": "#f00000",
-        "color": "#ffffff"
-      },
-      "section": {
-        "color": "#ffffff",
-        "padding": "10",
-        "font": "HelveticaNeue-Bold",
-        "size": "53"
-      },
-      "key": {
-        "color": "#ffffff",
-        "font": "HelveticaNeue-Bold",
-        "align": "right",
-        "size": "33"
-      },
-      "value": {
-        "color": "#ffffff",
-        "align": "right",
-        "font": "HelveticaNeue",
-        "size": "12"
+        "header": {
+          "background": "#f00000",
+          "color": "#ffffff"
+        },
+        "section": {
+          "color": "#ffffff",
+          "padding": "10",
+          "font": "HelveticaNeue-Bold",
+          "size": "53"
+        },
+        "key": {
+          "color": "#ffffff",
+          "font": "HelveticaNeue-Bold",
+          "align": "right",
+          "size": "33"
+        },
+        "value": {
+          "color": "#ffffff",
+          "align": "right",
+          "font": "HelveticaNeue",
+          "size": "12"
+        }
+      }
+    },
+    "templates": {
+      "body": {
+        "background": {
+          "@": "$document.style.background"
+        },
+        "header": {
+          "title": "Magic Table",
+          "style": {
+            "@": "$document.style.header"
+          }
+        },
+        "sections": {
+          "{{#each items.slice(0,20)}}": {
+            "header": {
+              "type": "label",
+              "text": "{{$index}}",
+              "style": {
+                "@": "$document.style.section"
+              }
+            },
+            "items": [
+              {
+                "type": "vertical",
+                "components": {
+                  "{{#let}}": [
+                    {
+                      "key": "{{this}}"
+                    },
+                    {
+                      "{{#each Object.keys(key).filter(function(k) { return k !== '$root' && k !== 'key' }) }}": {
+                        "type": "vertical",
+                        "components": [
+                          {
+                            "type": "label",
+                            "style": {
+                              "@": "$document.style.key"
+                            },
+                            "text": "{{this}}"
+                          },
+                          {
+                            "type": "label",
+                            "style": {
+                              "@": "$document.style.value"
+                            },
+                            "text": "{{JSON.stringify(key[this])}}"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
       }
     }
   }
+}
