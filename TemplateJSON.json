@@ -36,110 +36,112 @@
         }
       ]
     },
-    "body": {
-      "header": {
-        "title": {
-          "type": "image",
-          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
+    "templates": {
+      "body": {
+        "header": {
+          "title": {
+            "type": "image",
+            "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
+            "style": {
+              "width": "300",
+              "height": "42"
+            }
+          },
           "style": {
-            "width": "300",
-            "height": "42"
+            "background": "rgb(87, 148, 202)",
+            "color": "#000000"
           }
         },
-        "style": {
-          "background": "rgb(87, 148, 202)",
-          "color": "#000000"
-        }
-      },
-      "sections": [
-        {
-          "items": [
-            {
-              "type": "label",
-              "text": "Demo JSON",
-              "class": "bold",
-              "style": {
-                "padding": "5"
-              },
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/demo.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Demo data",
-              "class": "bold",
-              "style": {
-                "padding": "5"
-              },
-              "href": {
-                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/dataexample.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "No17",
-              "class": "normal",
-              "style": {
-                "padding": "5"
-              }
-            },
-            {
-              "{{#each Termine}}": {
-                "type": "horizontal",
+        "sections": [
+          {
+            "items": [
+              {
+                "type": "label",
+                "text": "Demo JSON",
+                "class": "bold",
                 "style": {
-                  "padding": "5",
-                  "spacing": "5"
+                  "padding": "5"
                 },
-                "components": [
-                  {
-                    "type": "label",
-                    "class": "label_class",
-                    "text": "{{date}}",
-                    "style": {
-                      "width": "30%"
-                    }
+                "href": {
+                  "url": "https://jasonette.github.io/Jasonpedia/demo.json"
+                }
+              },
+              {
+                "type": "label",
+                "text": "Demo data",
+                "class": "bold",
+                "style": {
+                  "padding": "5"
+                },
+                "href": {
+                  "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/dataexample.json"
+                }
+              },
+              {
+                "type": "label",
+                "text": "No17",
+                "class": "normal",
+                "style": {
+                  "padding": "5"
+                }
+              },
+              {
+                "{{#each Termine}}": {
+                  "type": "horizontal",
+                  "style": {
+                    "padding": "5",
+                    "spacing": "5"
                   },
-                  {
-                    "type": "label",
-                    "class": "label_class",
-                    "text": "{{time}}",
-                    "style": {
-                      "width": "20%"
+                  "components": [
+                    {
+                      "type": "label",
+                      "class": "label_class",
+                      "text": "{{date}}",
+                      "style": {
+                        "width": "30%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "class": "label_class",
+                      "text": "{{time}}",
+                      "style": {
+                        "width": "20%"
+                      }
+                    },
+                    {
+                      "type": "label",
+                      "class": "label_class",
+                      "text": "{{text}}",
+                      "style": {
+                        "width": "50%"
+                      }
                     }
-                  },
-                  {
-                    "type": "label",
-                    "class": "label_class",
-                    "text": "{{text}}",
-                    "style": {
-                      "width": "50%"
-                    }
-                  }
-                ]
+                  ]
+                }
               }
-            }
-          ]
-        }
-      ],
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "#FFFFFF",
-            "color": "rgba(87, 148, 202,0)"
-          },
-          "items": [
-            {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
-              "text": "Termine",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+            ]
+          }
+        ],
+        "footer": {
+          "tabs": {
+            "style": {
+              "background": "#FFFFFF",
+              "color": "rgba(87, 148, 202,0)"
             },
-            {
-              "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
-              "text": "Info",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
-            }
-          ]
+            "items": [
+              {
+                "image": "https://img.icons8.com/ultraviolet/40/000000/property-time.png",
+                "text": "Termine",
+                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+              },
+              {
+                "image": "https://img.icons8.com/ultraviolet/40/000000/info.png",
+                "text": "Info",
+                "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+              }
+            ]
+          }
         }
       }
     }
