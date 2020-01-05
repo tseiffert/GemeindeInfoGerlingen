@@ -125,7 +125,7 @@
       "footer": {
         "tabs": {
           "style": {
-            "background": "#FFFFFF",
+            "background": "#000000",
             "color": "rgba(87, 148, 202,0)"
           },
           "items": [
