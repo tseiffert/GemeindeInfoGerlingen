@@ -54,78 +54,31 @@
           "color": "#ffffff"
         }
       },
-      "sections": [
-        {
-          "items": [
-          {
-              "{{#each Termine}}": {
-                "type": "horizontal",
-                "style": {
-                  "spacing": "10"
-                },
-                "components": [{
-                  "type": "label",
-                    "text": "{{text}}",
-                    "style": {
-                      "font": "HelveticaNeue",
-                      "size": "14"
-                    },{
-                    "type": "image",
-                    "url": "{{image}}",
-                    "style": {
-                      "corner_radius": "5"
-                    }
-                }]
-              }
-            },
-            {
-              "type": "label",
-              "text": "Demo JSON",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/demo.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "2",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                "url": "https://jasonette.github.io/Jasonpedia/demo.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "pdf",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                "url": "https://raw.githubusercontent.com/Jasonette/Jasonpedia/gh-pages/webcontainer/pdf.json"
-              }
-            },
-            {
-              "type": "label",
-              "text": "1.",
-              "class": "bold",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                    "url": "http://www.ninjas.cl",
-                    "view": "web"
-                  }
+      "sections":  {
+        "items": [{
+          "type": "grid",
+          "component_width": "200",
+          "grid_border": "#abcdef",
+          "components": [{
+            "type": "image",
+            "url": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2.jpeg",
+            "style": {
+              "width": "80",
+              "padding": "10",
+              "border": "#123456"
             }
-          ]
-        }
-      ],
+          }, {
+            "type": "image",
+            "url": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2.jpeg",
+            "style": {
+              "width": "80",
+              "padding": "10",
+              "border": "#123456"
+            }
+          }]
+        }]
+      }
+    },
       "footer": {
           "tabs": {
             "style": {
@@ -146,6 +99,5 @@
             ]
           }
         }
-    }
   }
 }
