@@ -12,8 +12,14 @@
         }
       },
       "actions": {
+        "$load": {
+          "type": "$render"
+        },
         "$pull": {
-          "type": "$reload"
+          "type": "$flush",
+          "success": {
+            "type": "$reload"
+          }
         }
       }
     },
@@ -78,7 +84,7 @@
             },
             {
               "type": "label",
-              "text": "No19",
+              "text": "No20",
               "class": "normal",
               "style": {
                 "padding": "5"
