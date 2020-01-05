@@ -54,7 +54,7 @@
         },
         "style": {
           "background": "rgb(87, 148, 202)",
-          "color": "#000000"
+          "color": "#FFFFFF"
         }
       },
       "sections": [
@@ -84,7 +84,7 @@
             },
             {
               "type": "label",
-              "text": "No20",
+              "text": "No21",
               "class": "normal",
               "style": {
                 "padding": "5"
