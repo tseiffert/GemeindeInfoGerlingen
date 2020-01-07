@@ -1,4 +1,9 @@
 Datenschutzerklärung
+
+Die App sammelt keine persönlichen Daten und braucht auch keine besonderen Zugriffsrechte.
+
+Da aber über den Appstore ein Kontakt möglich ist gelten folgende Datenschutzgrundlinien:
+
 Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 Thomas Seiffert
 
