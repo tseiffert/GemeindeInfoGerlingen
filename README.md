@@ -11,7 +11,7 @@ https://github.com/tseiffert/jasonette-iOS-master
 Link Repository Android:
 https://github.com/tseiffert/JASONETTE-Android
 
-#Android
+# Android
 <img src="https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/Screens/Android.png" alt="iPhone" width="200"/>
 
 # iPhone
