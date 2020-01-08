@@ -59,6 +59,26 @@
               }
             },
             {
+              "type": "$util.share",
+              "options": {
+                "items": [{
+                  "type": "text",
+                  "text": "Telefonkonferenz:"
+                }]
+              }
+            },
+            {
+              "type": "label",
+              "text": "Take a photo on Instagram",
+              "action": {
+                "type": "$href",
+                "options": {
+                  "url": "tel://00497156",
+                  "view": "app"
+                }
+              }
+            },
+            {
               "type": "label",
               "text": "Credits",
               "class": "bold",
