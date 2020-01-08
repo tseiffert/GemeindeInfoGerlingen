@@ -59,21 +59,12 @@
               }
             },
             {
-              "type": "$util.share",
-              "options": {
-                "items": [{
-                  "type": "text",
-                  "text": "Telefonkonferenz:"
-                }]
-              }
-            },
-            {
               "type": "label",
-              "text": "Take a photo on Instagram",
+              "text": "Telefonkonferenz anrufen (004971120949079;21272#;70839#)",
               "action": {
                 "type": "$href",
                 "options": {
-                  "url": "tel://00497156",
+                  "url": "tel://004971120949079;21272#;70839#",
                   "view": "app"
                 }
               }
