@@ -11,15 +11,19 @@ https://github.com/tseiffert/jasonette-iOS-master
 Link Repository Android:
 https://github.com/tseiffert/JASONETTE-Android
 
-![Android]
+#Android
 <img src="https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/Screens/Android.png" alt="iPhone" width="200"/>
 
-![iPhone]
+# iPhone
 <img src="https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/Screens/iPhone0.PNG" alt="iPhone" width="200"/>
 
-Credits:
+# Credits:
 Thanks to Jasonette! Nice open source project!
 https://www.jasonette.com
+
 Good Documentation:
 https://ebf.github.io/jasonette-documentation/
+
+Helpfull JSON Formatter:
+https://jsonformatter.org
 
