@@ -11,5 +11,9 @@ https://github.com/tseiffert/jasonette-iOS-master
 Link Repository Android:
 https://github.com/tseiffert/JASONETTE-Android
 
-
+Credits:
 Thanks to Jasonette! Nice open source project!
+https://www.jasonette.com
+Good Documentation:
+https://ebf.github.io/jasonette-documentation/
+
