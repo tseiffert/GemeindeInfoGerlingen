@@ -75,28 +75,13 @@
               "text": "  ",
               "style": {
                 "padding": "2",
-                "background": "#F0F0F0"
+                "background": "#F0F0F0",
+                "size": "2"
               }
             },
             {
               "type": "label",
               "text": "Notfallnummern wenn die Leitung besetzt ist: 0711-20528887 oder 089-14379502",
-              "class": "normal",
-              "style": {
-                "padding": "5"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz.",
-              "class": "normal",
-              "style": {
-                "padding": "5"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Telefon 0711-20949079, Konferenzraum Ditzingen 35536#, PIN Ditzingen: 14725#",
               "class": "normal",
               "style": {
                 "padding": "5"
@@ -109,6 +94,11 @@
                 "spacing": "5"
               },
               "components": [
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz:"
+                },
                 {
                   "type": "label",
                   "class": "label_class",
@@ -131,31 +121,36 @@
               "text": "  ",
               "style": {
                 "padding": "2",
-                "background": "#F0F0F0"
+                "background": "#F0F0F0",
+                "size": "2"
               }
             },
             {
-              "type": "label",
-              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten als Kontakt abspeichern.",
-              "class": "normal",
+              "type": "vertical",
               "style": {
-                "padding": "5"
-              }
-            },
-            {
-              "type": "label",
-              "text": "004971120949079;21272#;70839#",
-              "class": "normal",
-              "style": {
-                "padding": "5"
-              }
+                "padding": "10",
+                "spacing": "5"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten als Kontakt abspeichern."
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "004971120949079;21272#;70839#"
+                }
+              ]
             },
             {
               "type": "label",
               "text": "  ",
               "style": {
                 "padding": "2",
-                "background": "#F0F0F0"
+                "background": "#F0F0F0",
+                "size": "2"
               }
             },
             {
