@@ -72,6 +72,14 @@
             },
             {
               "type": "label",
+              "text": "  ",
+              "style": {
+                "padding": "2",
+                "background": "#F0F0F0"
+              }
+            },
+            {
+              "type": "label",
               "text": "Notfallnummern wenn die Leitung besetzt ist: 0711-20528887 oder 089-14379502",
               "class": "normal",
               "style": {
@@ -96,7 +104,15 @@
             },
             {
               "type": "label",
-              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben:",
+              "text": "  ",
+              "style": {
+                "padding": "2",
+                "background": "#F0F0F0"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten als Kontakt abspeichern.",
               "class": "normal",
               "style": {
                 "padding": "5"
@@ -104,19 +120,27 @@
             },
             {
               "type": "label",
-              "text": "004971120949079;21272#;70839#  Am besten als Kontakt abspeichern",
+              "text": "004971120949079;21272#;70839#",
               "class": "normal",
               "style": {
-                "padding": "0"
+                "padding": "5"
+              }
+            },
+            {
+              "type": "label",
+              "text": "  ",
+              "style": {
+                "padding": "2",
+                "background": "#F0F0F0"
               }
             },
             {
               "type": "button",
               "url": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/icons8-phone-40.png",
               "style": {
-                "width": "50",
+                "width": "250",
                 "height": "50",
-                "background": "#FFFFFF",
+                "background": "#606060",
                 "color": "#rgb(87, 148, 202)",
                 "font": "HelveticaNeue",
                 "size": "12",
@@ -130,6 +154,14 @@
                 }
               }
             }
+            {
+              "type": "label",
+              "text": "  ",
+              "style": {
+                "padding": "2",
+                "background": "#F0F0F0"
+              }
+            },
           ]
         }
       ],
