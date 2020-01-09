@@ -60,7 +60,7 @@
               "class": "normal",
               "style": {
                 "padding": "20"
-                }
+              }
             },
             {
               "type": "label",
@@ -68,7 +68,7 @@
               "class": "normal",
               "style": {
                 "padding": "20"
-                }
+              }
             },
             {
               "type": "label",
@@ -76,28 +76,24 @@
               "class": "normal",
               "style": {
                 "padding": "20"
-                }
+              }
             },
             {
               "type": "label",
-              "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz: \n
-              Telefon 0711-20949079\n
-              Konferenzraum Ditzingen: 35536#\n
-              PIN Ditzingen: 14725#",
+              "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz. Telefon 0711-20949079, Konferenzraum Ditzingen 35536#, PIN Ditzingen: 14725#",
               "class": "normal",
               "style": {
                 "padding": "20"
-                }
+              }
             },
             {
               "type": "label",
-              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten so als Kontakt abspeichern.\n
-              004971120949079;21272#;70839#",
+              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten so als Kontakt abspeichern. 004971120949079;21272#;70839#",
               "class": "normal",
               "style": {
                 "padding": "20"
-                }
-            } ,
+              }
+            },
             {
               "type": "button",
               "url": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/icons8-phone-40.png",
@@ -134,6 +130,11 @@
               "text": "Termine",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
             },
+            {
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-phone-32.png",
+              "text": "Telefon",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Telefon.json"
+            },            
             {
               "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
               "text": "Info",
