@@ -51,7 +51,7 @@
               "text": "Internet-Seite der neuapostolischen Gemeinde in Gerlingen",
               "class": "normal",
               "style": {
-                "padding": "5"
+                "padding": "10"
               },
               "href": {
                 "url": "https://www.nak-stuttgart-leonberg.de/gerlingen",
@@ -65,17 +65,6 @@
                 "type": "$href",
                 "options": {
                   "url": "tel://004971120949079;21272#;70839#",
-                  "view": "app"
-                }
-              }
-            },
-            {
-              "type": "label",
-              "text": "Telefonkonferenz anrufen ",
-              "action": {
-                "type": "$href",
-                "options": {
-                  "url": "telprompt://004971120949079;21272#;70839#",
                   "view": "app"
                 }
               }
@@ -103,7 +92,7 @@
               "text": "Die App basiert auf das Framework von Jeansonette. Ermöglicht iOS und Android Apps over JSON Files.",
               "class": "normal",
               "style": {
-                "padding": "5"
+                "padding": "10"
               },
               "href": {
                 "url": "https://github.com/Jasonette",
@@ -123,7 +112,7 @@
               "text": "Icons sind von www.icons8.com",
               "class": "normal",
               "style": {
-                "padding": "5"
+                "padding": "10"
               },
               "href": {
                 "url": "https://icons8.com/",
