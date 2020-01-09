@@ -103,6 +103,30 @@
               }
             },
             {
+              "type": "vertical",
+              "style": {
+                "padding": "10",
+                "spacing": "5"
+              },
+              "components": [
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Telefon 0711-20949079"
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "Konferenzraum Ditzingen 35536#"
+                },
+                {
+                  "type": "label",
+                  "class": "label_class",
+                  "text": "PIN Ditzingen: 14725#"
+                }
+              ]
+            },
+            {
               "type": "label",
               "text": "  ",
               "style": {
@@ -138,13 +162,13 @@
               "type": "button",
               "url": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/icons8-phone-40.png",
               "style": {
-                "width": "250",
+                "width": "100",
                 "height": "50",
                 "background": "#606060",
                 "color": "#rgb(87, 148, 202)",
                 "font": "HelveticaNeue",
                 "size": "12",
-                "corner_radius": "25"
+                "corner_radius": "5"
               },
               "action": {
                 "type": "$href",
@@ -153,7 +177,7 @@
                   "view": "app"
                 }
               }
-            }
+            },
             {
               "type": "label",
               "text": "  ",
@@ -161,7 +185,7 @@
                 "padding": "2",
                 "background": "#F0F0F0"
               }
-            },
+            }
           ]
         }
       ],
