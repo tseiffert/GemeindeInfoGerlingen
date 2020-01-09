@@ -38,7 +38,7 @@
           "items": [
             {
               "type": "label",
-              "text": "NAK Internet",
+              "text": "NAK Telefonkonferenz",
               "class": "bold",
               "size": "20",
               "style": {
@@ -48,75 +48,74 @@
             },
             {
               "type": "label",
-              "text": "Internet-Seite der neuapostolischen Gemeinde in Gerlingen",
+              "text": "1. Rufnummer wählen:0711-20949079",
               "class": "normal",
               "style": {
                 "padding": "20"
-              },
-              "href": {
-                "url": "https://www.nak-stuttgart-leonberg.de/gerlingen",
-                "view": "web"
               }
             },
             {
               "type": "label",
-              "text": "Telefonkonferenz anrufen ",
+              "text": "2. Konferenzraumnummer eingeben: 21272#",
+              "class": "normal",
+              "style": {
+                "padding": "20"
+                }
+            },
+            {
+              "type": "label",
+              "text": "3. Gemeinde PIN Gerlingen: 70839#",
+              "class": "normal",
+              "style": {
+                "padding": "20"
+                }
+            },
+            {
+              "type": "label",
+              "text": "Notfallnummern wenn die Leitung besetzt ist: 0711-20528887 oder 089-14379502",
+              "class": "normal",
+              "style": {
+                "padding": "20"
+                }
+            },
+            {
+              "type": "label",
+              "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz: \n
+              Telefon 0711-20949079\n
+              Konferenzraum Ditzingen: 35536#\n
+              PIN Ditzingen: 14725#",
+              "class": "normal",
+              "style": {
+                "padding": "20"
+                }
+            },
+            {
+              "type": "label",
+              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten so als Kontakt abspeichern.\n
+              004971120949079;21272#;70839#",
+              "class": "normal",
+              "style": {
+                "padding": "20"
+                }
+            } ,
+            {
+              "type": "button",
+              "url": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/icons8-phone-40.png",
+              "style": {
+                "width": "50",
+                "height": "50",
+                "background": "#000000",
+                "color": "#rgb(87, 148, 202)",
+                "font": "HelveticaNeue",
+                "size": "12",
+                "corner_radius": "25"
+              },
               "action": {
                 "type": "$href",
                 "options": {
                   "url": "tel://004971120949079;21272#;70839#",
                   "view": "app"
                 }
-              }
-            },
-            {
-              "type": "label",
-              "text": "Credits",
-              "class": "bold",
-              "size": "20",
-              "style": {
-                "padding": "10",
-                "background": "#F0F0F0"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Jeasonelle",
-              "class": "bold",
-              "style": {
-                "padding": "10"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Die App basiert auf das Framework von Jeansonette. Ermöglicht iOS und Android Apps over JSON Files.",
-              "class": "normal",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                "url": "https://github.com/Jasonette",
-                "view": "web"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Icons",
-              "class": "bold",
-              "style": {
-                "padding": "10"
-              }
-            },
-            {
-              "type": "label",
-              "text": "Icons sind von www.icons8.com",
-              "class": "normal",
-              "style": {
-                "padding": "20"
-              },
-              "href": {
-                "url": "https://icons8.com/",
-                "view": "web"
               }
             }
           ]
@@ -134,11 +133,6 @@
               "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-eigenschaftszeit-32.png",
               "text": "Termine",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
-            },
-            {
-              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-phone-32.png",
-              "text": "Telefon",
-              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Telefon.json"
             },
             {
               "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
