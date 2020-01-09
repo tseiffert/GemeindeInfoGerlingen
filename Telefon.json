@@ -51,7 +51,7 @@
               "text": "1. Rufnummer wählen:0711-20949079",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               }
             },
             {
@@ -59,7 +59,7 @@
               "text": "2. Konferenzraumnummer eingeben: 21272#",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               }
             },
             {
@@ -67,7 +67,7 @@
               "text": "3. Gemeinde PIN Gerlingen: 70839#",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               }
             },
             {
@@ -75,23 +75,39 @@
               "text": "Notfallnummern wenn die Leitung besetzt ist: 0711-20528887 oder 089-14379502",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               }
             },
             {
               "type": "label",
-              "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz. Telefon 0711-20949079, Konferenzraum Ditzingen 35536#, PIN Ditzingen: 14725#",
+              "text": "Falls die Gerlinger Konferenz gestört ist, hier die Einwahldaten der Ditzinger Konferenz.",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               }
             },
             {
               "type": "label",
-              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben. Am besten so als Kontakt abspeichern. 004971120949079;21272#;70839#",
+              "text": "Telefon 0711-20949079, Konferenzraum Ditzingen 35536#, PIN Ditzingen: 14725#",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Telefonnnummer mit Pausenzeichen und Pineingaben:",
+              "class": "normal",
+              "style": {
+                "padding": "5"
+              }
+            },
+            {
+              "type": "label",
+              "text": "004971120949079;21272#;70839#  Am besten als Kontakt abspeichern",
+              "class": "normal",
+              "style": {
+                "padding": "0"
               }
             },
             {
@@ -100,7 +116,7 @@
               "style": {
                 "width": "50",
                 "height": "50",
-                "background": "#000000",
+                "background": "#FFFFFF",
                 "color": "#rgb(87, 148, 202)",
                 "font": "HelveticaNeue",
                 "size": "12",
@@ -134,7 +150,7 @@
               "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-phone-32.png",
               "text": "Telefon",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Telefon.json"
-            },            
+            },
             {
               "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
               "text": "Info",
