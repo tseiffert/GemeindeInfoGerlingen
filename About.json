@@ -61,9 +61,6 @@
             {
               "type": "label",
               "text": "Telefonkonferenz anrufen ",
-              "style": {
-                "padding": "5"
-              },
               "action": {
                 "type": "$href",
                 "options": {
@@ -75,9 +72,6 @@
             {
               "type": "label",
               "text": "Telefonkonferenz anrufen ",
-              "style": {
-                "padding": "5"
-              },
               "action": {
                 "type": "$href",
                 "options": {
@@ -121,7 +115,7 @@
               "text": "Icons",
               "class": "bold",
               "style": {
-                "padding": "5"
+                "padding": "10"
               }
             },
             {
