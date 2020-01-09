@@ -51,7 +51,7 @@
               "text": "Internet-Seite der neuapostolischen Gemeinde in Gerlingen",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               },
               "href": {
                 "url": "https://www.nak-stuttgart-leonberg.de/gerlingen",
@@ -61,10 +61,27 @@
             {
               "type": "label",
               "text": "Telefonkonferenz anrufen ",
+              "style": {
+                "padding": "5"
+              },
               "action": {
                 "type": "$href",
                 "options": {
                   "url": "tel://004971120949079;21272#;70839#",
+                  "view": "app"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "text": "Telefonkonferenz anrufen ",
+              "style": {
+                "padding": "5"
+              },
+              "action": {
+                "type": "$href",
+                "options": {
+                  "url": "telprompt://004971120949079;21272#;70839#",
                   "view": "app"
                 }
               }
@@ -92,7 +109,7 @@
               "text": "Die App basiert auf das Framework von Jeansonette. Ermöglicht iOS und Android Apps over JSON Files.",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               },
               "href": {
                 "url": "https://github.com/Jasonette",
@@ -104,7 +121,7 @@
               "text": "Icons",
               "class": "bold",
               "style": {
-                "padding": "10"
+                "padding": "5"
               }
             },
             {
@@ -112,7 +129,7 @@
               "text": "Icons sind von www.icons8.com",
               "class": "normal",
               "style": {
-                "padding": "20"
+                "padding": "5"
               },
               "href": {
                 "url": "https://icons8.com/",
