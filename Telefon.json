@@ -146,21 +146,18 @@
             },
             {
               "type": "button",
-              "url": "https://github.com/tseiffert/GemeindeInfoGerlingen/blob/master/icons8-phone-40.png",
+              "text": "Konferenz anrufen",
+              "class": "bold",
+              "style": {
+                "color": "rgb(87, 148, 202)",
+                "font": "HelveticaNeue",
+                "size": "18"
+              },
               "action": {
                 "type": "$href",
                 "options": {
-                  "url": "tel://004971120949079;21272#;70839#",
+                  "url": "tel://004971120949079",
                   "view": "app"
-                },
-                "style": {
-                  "width": "100",
-                  "height": "50",
-                  "background": "#606060",
-                  "color": "#rgb(87, 148, 202)",
-                  "font": "HelveticaNeue",
-                  "size": "12",
-                  "corner_radius": "5"
                 }
               }
             },
