@@ -142,6 +142,11 @@
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Telefon.json"
             },
             {
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-application-shield-32.png",
+              "text": "Intern",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Intern.json"
+            },
+            {
               "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
               "text": "Info",
               "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
