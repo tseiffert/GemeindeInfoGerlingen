@@ -60,17 +60,6 @@
             },
             {
               "type": "label",
-              "text": "Telefonkonferenz anrufen ",
-              "action": {
-                "type": "$href",
-                "options": {
-                  "url": "tel://004971120949079;21272#;70839#",
-                  "view": "app"
-                }
-              }
-            },
-            {
-              "type": "label",
               "text": "Credits",
               "class": "bold",
               "size": "20",
@@ -96,6 +85,18 @@
               },
               "href": {
                 "url": "https://github.com/Jasonette",
+                "view": "web"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Die App ist unter MIT lizensiert und in GitHub gehostet.",
+              "class": "normal",
+              "style": {
+                "padding": "10"
+              },
+              "href": {
+                "url": "https://github.com/tseiffert/GemeindeInfoGerlingen",
                 "view": "web"
               }
             },
