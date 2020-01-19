@@ -1,0 +1,109 @@
+{
+  "$jason": {
+    "head": {
+      "title": "NAK Gemeindeinfo Gerlingen",
+      "description": "NAK Gemeindeinfo Gerlingen",
+      "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
+      "offline": "false",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
+        }
+      },
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title": {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/GemInfoLogoStripeSmal.png",
+          "style": {
+            "width": "300",
+            "height": "42"
+          }
+        },
+        "style": {
+          "background": "rgb(87, 148, 202)",
+          "padding": "15",
+          "color": "#ffffff"
+        }
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "label",
+              "text": "Interne Pläne der Gemeinde",
+              "class": "bold",
+              "size": "20",
+              "style": {
+                "padding": "10",
+                "background": "#F0F0F0"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Musikplan der Gemeinde in Gerlingen",
+              "class": "normal",
+              "style": {
+                "padding": "10"
+              },
+              "href": {
+                "url": "https://docs.google.com/spreadsheets/d/12EUHBvgD0m7iQD9imBAdYt6xPUT5sJHHjg0mLWoHhG8/edit#gid=2110969766",
+                "view": "web"
+              }
+            },
+            {
+              "type": "label",
+              "text": "Dienstplan Gerlingen.",
+              "class": "normal",
+              "style": {
+                "padding": "10"
+              },
+              "href": {
+                "url": "https://drive.google.com/file/d/1wMglT7sdNMiWfw7o2q6TO0wLj80zZSMZ/view?usp=sharing",
+                "view": "web"
+              }
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "tabs": {
+          "style": {
+            "background": "#FFFFFF",
+            "color": "rgba(87, 148, 202, 1)",
+            "color:disabled": "rgba(87, 148, 202, 0.5)"
+          },
+          "items": [
+            {
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-eigenschaftszeit-32.png",
+              "text": "Termine",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/TemplateJSON.json"
+            },
+            {
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-phone-32.png",
+              "text": "Telefon",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Telefon.json"
+            },
+            {
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-application-shield-32.png",
+              "text": "Intern",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Intern.json"
+            },
+            {
+              "image": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/icons8-info-32.png",
+              "text": "Info",
+              "url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/About.json"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
