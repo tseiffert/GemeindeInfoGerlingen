@@ -25,7 +25,7 @@
             "type": "$script.include",
             "options": {
               "items": [
-                {"url": "file://DateTool.js"}
+                {"url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/DateTool.js"}
               ]
             },
             "success": {
