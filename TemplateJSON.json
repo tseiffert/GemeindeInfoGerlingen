@@ -13,7 +13,10 @@
       },
       "actions": {
         "$foreground": {
-          "type": "$reload"
+          "type": "$flush",
+          "success": {
+            "type": "$reload"
+          }
         },
         "$pull": {
           "type": "$flush",
