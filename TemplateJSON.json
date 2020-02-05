@@ -3,7 +3,7 @@
     "head": {
       "title": "NAK Gemeindeinfo Gerlingen-v3",
       "description": "NAK Gemeindeinfo Gerlingen-V3",
-      "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/NAKLogo.png",
+      "icon": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/Logo.png",
       "offline": "false",
       "styles": {
         "bold": {
@@ -28,7 +28,7 @@
             "type": "$script.include",
             "options": {
               "items": [
-                {"url": "file://DateTool.js"}
+                {"url": "https://raw.githubusercontent.com/tseiffert/GemeindeInfoGerlingen/master/DateTool.js"}
               ]
             },
             "success": {
